@@ -1,3 +1,3 @@
 # ServerLinux
 Server Linux Code
-"Linux Project 24h"
+"Linux Project QT"
