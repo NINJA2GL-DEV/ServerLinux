@@ -1,0 +1,10 @@
+<<command>>
+-code "Linux.Download.Server"
+-serverip {192.168.X.XX} -hide
+-receive:code [0-1000] -action {ActionCode} "ActionCode.dat"
+-senddownload:code [0-1000] -action {x=action} "DownloadCode.dat"
+FileRequest(Accept) [0-1000]
+ServerAccess(Decline) -hide.ip msgbox("Denied")
+ServerAccess(Decline) -SendSMS PhoneNumber(+393787375286)"Anyone Want to access"
+\DownloadLink_1 @Server1 Block
+url:
