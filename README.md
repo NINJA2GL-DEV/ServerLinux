@@ -1,6 +1,7 @@
 # ServerLinux NINJA2GL Code
 Server Linux Code
-<<command>>
+
+# <<command>>
 -code "Linux.Download.Server"
 -serverip {1XX.XXX.X.XX} -hide
 -receive:code [0-1000] -action {ActionCode} "ActionCode.dat"
@@ -10,3 +11,4 @@ ServerAccess(Decline) -hide.ip msgbox("Denied")
 ServerAccess(Decline) -SendSMS PhoneNumber(+XXXXXXXXXX)"Anyone Want to access"
 \DownloadLink_1 @Server1 Block
 url:
+
